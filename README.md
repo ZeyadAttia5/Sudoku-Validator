@@ -27,7 +27,8 @@ To run the application:
 1. Compile the source code files using an appropriate compiler, ensuring any required libraries or dependencies are linked.
 2. Execute the compiled executable.
 3. The application will create the necessary worker threads to validate the Sudoku puzzle solution.
-4. Once all worker threads have completed their checks, the parent thread will examine the results and determine the validity of the Sudoku puzzle.
+4. Once all worker threads have completed their checks, the parent thread will examine the results and determine the validity of the Sudoku puzzle in `sudoku.h`.
+5. Feel free to change the puzzle in `sudoku.h` 😊
 
 Make sure to adjust the source code to fit your specific environment, such as the thread creation process, data structures, and synchronization mechanisms if necessary.
 
